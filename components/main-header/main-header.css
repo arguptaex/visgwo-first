@@ -1,0 +1,23 @@
+
+
+.header-tag{
+    display: flex;
+    justify-content: center;
+    border: 1px solid purple;
+}
+
+.header-logo .logo-img{
+    width: 2.4rem;
+}
+
+.navbar{
+    border: 2px solid red;
+    /* flex-grow: 1; */
+}
+
+.header-tag ul{
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
