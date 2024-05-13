@@ -32,6 +32,7 @@ const MainHeader = () => {
                         <li className={path==='/'? "active main-header-list" : "main-header-list" }><Link href="/">Home</Link></li>
                         <li className={path==='/about'? "active main-header-list" : "main-header-list" }><Link href="/about">About</Link></li>
                         <li className={path==='/contact'? "active main-header-list" : "main-header-list" }><Link href="/contact">Contact Us</Link></li>
+                        <li className={path==='/products'? "active main-header-list" : "main-header-list" }><Link href="/products">Products</Link></li>
                     </ul>
                 </nav>
             </header>
